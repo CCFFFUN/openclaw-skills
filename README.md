@@ -27,22 +27,22 @@
 
 ## 📚 已收录电子书(release 永久下载)
 
-> 呱呱用 pdf-finder 技能找到并验证可下载的书。所有文件用 GitHub Release 永久存储 + jsDelivr CDN 加速(中国大陆可访问)。
+> 呱呱用 pdf-finder 技能找到并验证可下载的书。所有文件用 GitHub Release 永久存储,直接点击下载。
 
 ### 🐱 救猫咪(布莱克·斯奈德)
 
-| 文件 | 格式 | 大小 | 直链 | jsDelivr 加速 |
-|------|------|------|------|---------------|
-| 救猫咪 三本经典合集 (1+2+3) | MOBI | 4.6M | [GitHub](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/save-the-cat-collection.mobi) | [jsDelivr](https://cdn.jsdelivr.net/gh/CCFFFUN/openclaw-skills@release/save-the-cat-collection.mobi) |
-| 救猫咪:电影编剧指南 | EPUB | 990K | [GitHub](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/save-the-cat-screenwriting-guide.epub) | [jsDelivr](https://cdn.jsdelivr.net/gh/CCFFFUN/openclaw-skills@release/save-the-cat-screenwriting-guide.epub) |
-| 救猫咪1:电影编剧宝典 (含中文) | PDF | 6.3M | [GitHub](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/save-the-cat-1-cn-pdf.pdf) | [jsDelivr](https://cdn.jsdelivr.net/gh/CCFFFUN/openclaw-skills@release/save-the-cat-1-cn-pdf.pdf) |
+| 文件 | 格式 | 大小 | 下载 |
+|------|------|------|------|
+| 救猫咪 三本经典合集 (1+2+3) | MOBI | 4.6M | [⬇ 下载](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/save-the-cat-collection.mobi) |
+| 救猫咪:电影编剧指南 | EPUB | 990K | [⬇ 下载](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/save-the-cat-screenwriting-guide.epub) |
+| 救猫咪1:电影编剧宝典 (含中文) | PDF | 6.3M | [⬇ 下载](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/save-the-cat-1-cn-pdf.pdf) |
 
 ### 📖 Story: Substance, Structure, Style (Robert McKee, 1997)
 
-| 文件 | 格式 | 大小 | 直链 | jsDelivr 加速 |
-|------|------|------|------|---------------|
-| Story (英文原版, 480页) | PDF | 1.2M | [GitHub](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/Story-McKee-1997.pdf) | [jsDelivr](https://cdn.jsdelivr.net/gh/CCFFFUN/openclaw-skills@release/Story-McKee-1997.pdf) |
-| Story (英文原版) | EPUB | 650K | [GitHub](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/Story-McKee-1997.epub) | [jsDelivr](https://cdn.jsdelivr.net/gh/CCFFFUN/openclaw-skills@release/Story-McKee-1997.epub) |
+| 文件 | 格式 | 大小 | 下载 |
+|------|------|------|------|
+| Story (英文原版, 480页) | PDF | 1.2M | [⬇ 下载](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/Story-McKee-1997.pdf) |
+| Story (英文原版) | EPUB | 650K | [⬇ 下载](https://github.com/CCFFFUN/openclaw-skills/releases/download/v1.0.0/Story-McKee-1997.epub) |
 
 > **注意**:Story 是 1997 英文原版(McKee 自己写的,没官方中译本)。libgen.li 上没找到中文版 PDF。如需中文,推荐微信读书 App 读《故事》。
 
@@ -61,7 +61,7 @@ ln -sf $(pwd)/skills/* ~/.openclaw/workspace/skills/
 
 ## 📖 文档
 
-- [skills/pdf-finder/SKILL.md](skills/pdf-finder/SKILL.md) - 找 PDF 技能完整文档(5500+ 字)
+- [skills/pdf-finder/SKILL.md](skills/pdf-finder/SKILL.md) - 找 PDF 技能完整文档
 
 ## 🤝 贡献
 
