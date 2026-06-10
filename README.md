@@ -7,6 +7,7 @@
 | 技能 | 说明 | 路径 |
 |------|------|------|
 | [pdf-finder](skills/pdf-finder/SKILL.md) | 🔥 绕过反爬找任意电子书 PDF/EPUB/MOBI (libgen 经验) | [SKILL.md](skills/pdf-finder/SKILL.md) |
+| [ai-storyboard-workflow](skills/ai-storyboard-workflow/SKILL.md) | 🎬 AI 时代分镜工作流：1 分钟短片从剧本到镜头清单、静态参考图、动态预演 | [SKILL.md](skills/ai-storyboard-workflow/SKILL.md) |
 
 ---
 
@@ -59,9 +60,30 @@ cd openclaw-skills
 ln -sf $(pwd)/skills/* ~/.openclaw/workspace/skills/
 ```
 
+## 🎬 ai-storyboard-workflow 技能
+
+**解决问题**:做 1 分钟短片/短剧分镜,AI 时代成本极低,但"画得漂亮不等于有戏"。这个工作流专治"AI 画得很好但镜头没节奏、情绪推不动"。
+
+**核心内容**:
+1. **短剧写作 3 法则**:开篇 3 秒钩子、单线紧凑、平台适配
+2. **5 步 AI 分镜流**:剧本 → AI 初版镜头清单 → 人工审查 → 静态参考图 → 动态预演 → 执行
+3. **分镜提示词要素**:镜号/景别/角度/运动/时长/画面/声音 + 转场/情绪/光影/色调
+4. **完整 Prompt 模板库**(见 references/prompt-templates.md):
+   - 1 分钟短片总控提示词(含 5 核心问题 + Harmon 8 步 + 镜头清单 + 开结尾呼应)
+   - Midjourney/可灵静态参考图 prompt 模板
+   - Seedance/Runway/可灵视频动态分镜 prompt 模板
+   - 分镜格式示例(以"女主发现男主出轨"为例)
+5. **模块化复用策略**:同一套风格,只换镜头序列和特效
+6. **自查清单**:故事/结构/视听/拆分/执行 5 个层面
+
+**详见** [skills/ai-storyboard-workflow/SKILL.md](skills/ai-storyboard-workflow/SKILL.md)
+
+---
+
 ## 📖 文档
 
 - [skills/pdf-finder/SKILL.md](skills/pdf-finder/SKILL.md) - 找 PDF 技能完整文档
+- [skills/ai-storyboard-workflow/SKILL.md](skills/ai-storyboard-workflow/SKILL.md) - AI 分镜工作流技能完整文档
 
 ## 🤝 贡献
 
